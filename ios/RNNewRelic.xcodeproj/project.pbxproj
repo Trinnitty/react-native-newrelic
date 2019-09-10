@@ -92,7 +92,7 @@
 		7B34242F1CCF990C00FEBAEC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 9999;
 				ORGANIZATIONNAME = Wix.com;
 				TargetAttributes = {
 					7B3424361CCF990C00FEBAEC = {
@@ -170,6 +170,8 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				RUN_CLANG_STATIC_ANALYZER = NO;
 			};
 			name = Debug;
 		};
@@ -208,6 +210,8 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				RUN_CLANG_STATIC_ANALYZER = NO;
 			};
 			name = Release;
 		};
@@ -225,6 +229,8 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				RUN_CLANG_STATIC_ANALYZER = NO;
 			};
 			name = Debug;
 		};
@@ -242,6 +248,8 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				RUN_CLANG_STATIC_ANALYZER = NO;
 			};
 			name = Release;
 		};
